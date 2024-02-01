@@ -1,0 +1,23 @@
+tornando o ivdeo responsivo 
+
+colocamos o video em um div e colocamos um class'video'
+no css teremos div.video para estilo 
+e o div.video > iframe para deixar responsivo
+
+para deixar responisvo colocamos o 
+div.video{ /*estilo*/
+ position:relative;
+padding-botton: 58%; /*isso serve para as bordas pretas que ficaram no video */ obs:tbm vai servir para o back-color
+pq quando se colocar position:absolute o back-color reduz o tamanho
+
+}
+e o 
+
+div.video > iframe{
+position:absolute;  /*a gente ja aprendeu que quando coloca position:absolute nos permite colocar cima (top), direita(rigth), esquerda(left), baxio(bottom)
+tambem posso usar o width e heigth
+top:5%;
+left:5%;
+width:90%;
+heigth:90%;
+}

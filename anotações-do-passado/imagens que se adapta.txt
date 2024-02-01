@@ -1,0 +1,19 @@
+imagens que se adapta com o tamanho do site
+
+para fazer imagen se adaptar com o tamanho do site usamos 
+picture 
+dentro de picture usamos o source:media:type e o img
+source serve para uso do max e min 
+colocamos o max ou min 720px o tamanho que a imagen ficara melhor
+colocamos o nome da imagen no srcset
+o type da imagens colocamos image/png  se for png se for jpg image/jpg e assim por diante
+
+se no img for a foto pequena é usado min-width se a foto no img for grande é max-width
+
+ex: <picture>
+        <source media="(max-width:750px)" srcset="imagens/paisagem-p.png" type="image/png">
+        <source media="(max-width:1250px )" srcset="imagens/paisagem-m.png" type="image/png">
+        <img src="imagens/paisagem-g.png" alt="foto-paisagem"></picture>
+
+
+SEMPRE A IMAGEN PEUQENA É EM CIMA DA IMAGEN MAIOR

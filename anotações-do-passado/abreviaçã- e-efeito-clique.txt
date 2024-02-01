@@ -1,0 +1,8 @@
+abreviação
+
+para abreviar uma tag usamos <abbr>
+
+para fazer um efeito clique 
+
+colocamos o cursor no css
+cursor:pointer

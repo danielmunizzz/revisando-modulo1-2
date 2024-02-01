@@ -1,0 +1,25 @@
+bordas
+
+para adicionar borda colocamos 
+border:tamanho da borda 1px tipo da borda solid cor black;
+
+existe 4 tipos de bordas 
+none    nenhuma borda
+dotted	borda pontilhada
+dashed	borda tracejada
+solid	borda de linha simples
+
+para adicionar sombras na borda 
+é usado box-shadow é para adicionar bordas em caixas
+e o text-shadow é  para adicionar bordas em texto 
+
+text-shadow e box-shadow utiliza assim
+/* deslocamento-x | deslocamento-y | raio-de-desfoque | cor */
+
+text-shadow: /* deslocamento-x */ 1px  /* deslocamento-y */ 1px /* raio-de-desfoque */ 2px /* cor */ black;
+
+para mexer no tamano das laterais da borda colocamos o 
+border-radius: 10px;
+ordem de tamanho do border-radius
+border-radius:/*esquerda*/ 10px /* direita */ 10px /* baixo esquerda */ 10px /* baixo direita */ 10px
+

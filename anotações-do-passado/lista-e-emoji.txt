@@ -1,0 +1,25 @@
+relembrando codigos
+
+para colocar emojis colocamos o  &#128512;
+
+emojis que tem U+ colocamos x no lugar
+
+ex: &#x1F63E;
+
+para colocamos lista a gente coloca o ul se quisemos com a lista com pontinho usamos o ul 
+com o traço de um v é o ol
+
+dentro deles colocamos li de lista
+
+tipos de lista ul
+disc  Define o marcador do item da lista como um marcador (padrão)
+circle	Define o marcador do item da lista como um círculo
+square	Define o marcador do item da lista como um quadrado
+none  	Os itens da lista não serão marcados
+
+tipos de lista ol 
+1 aparece como numero
+A aparece como letra maiuscula
+a aparece como letra minuscula
+I aparece como algoritmo romano maiusculo
+i aparece como algoritimo romano menusculo

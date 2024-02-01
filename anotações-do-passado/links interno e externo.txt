@@ -1,0 +1,21 @@
+link externo e interno
+
+para colocar links usamos o a teg <a href="luizinho.com">bola</a>
+
+no meio das tag colocamos um nome (bola) para o link e no href o link (luizinho.com) 
+quando fazemos isso ao clicar no nome q você inseriu no meio dos links ele ira direcionar você para uma outra janela dentro do seu site
+para fazer ele abrir em uma janela fora do seu site colocamos target="_blank"
+
+para link externo
+
+você ira fazer uma segunda documento html e colocaram o documento dentro do link 
+ex:<a href="pagina002.html">acesse a minha segunda pagina</a>
+o target colocaremos target="_self" /* significa na propia aba */ e colocamos o rel="external"*/significa que é um link externo que está fora do meu site*/
+
+rel em <a href=""></a>
+SEMPRE QUE VOCÊ FISSE ALGUM LINK PATROCINADO DENTRO SEMRPE COLOQUE (<a href="cocacola.com" target="blank" rel="prev">meu patrocinador</a>
+rel"prev"/*significa a minha pagina anterior 
+rel="next" /*significa a minha proxima pagina de navegação 
+existe o rel"nofollow" serve para instruir os buscadores que um determinado hyperlink 
+não deve ser seguido e que sua página de destino não deve receber link juice da página de origem.
+

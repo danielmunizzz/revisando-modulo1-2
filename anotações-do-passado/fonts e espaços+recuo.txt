@@ -1,0 +1,35 @@
+fonts e espaços
+
+para adicionar fontes sem baixar acessamos o gogle fonts procure uma fonte e
+quando acessamos vamos em type tester select all styles colocamos na opção import copiamos e jogamos no css
+em baixo ira dizer o nome para colocar no font-family
+
+para adicionar fontes baixada acessamos o gogle fonts procure uma fonte e
+quando acessamos ira aparecer a opção baixar clicamos nela e no css
+colocamos @font-face {
+    font-family:'nome da fonte'; 
+    src: url(aqui coloque afont baixada) ;
+  }
+
+
+
+para colocamos uma  altura da linha colocamos 
+line-height:1.6em;
+o começo da palavra do palagrafo ficara assim:
+    ok
+para colocar um recuo do texto colocamos 
+text-indent:
+isso vai da um espaço nas frases em baixo 
+ex:
+skjdslal
+
+wsjdlsjkdjlajs
+
+whjsdlajsdjashj
+
+como se fosse um padding-bottom em cada frase 
+
+text-align:justify; é adicionado espaço entre as palavras para que ambas as bordas de 
+cada linha fiquem alinhadas com ambas as margen
+
+ex: ana  ok  ana

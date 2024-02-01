@@ -1,0 +1,26 @@
+lista e links 
+
+para tiras mover os pontos da lista colocamos um 
+list-style-position: inside; /*bolinha pro lado de dentro da caixa*/
+o normal e unset/* fora da caixa */
+
+
+quando a lista estiver muito grande para separamos elas colocamos 
+columns:2; /* a lista tera 2 colunas */
+ex: dsnadnasnda          dsnadnasnda    
+    jdskdlsjdjks         lwsjdsnldjks
+    lwsjdsnldjks          jdskdlsjdjks 
+
+podemos adicionar emoji nas colunas  (NÃO É COMPATIVEL COM TODOS OS NAVEGADORES
+primeiro encontramos o emoji e pegamos só o numero 2714
+então usamos no css
+list-style-type: '\2714\00A0\00A0';
+00A0 é o espaço do emoji para lista
+
+podemos adicionar emoji nos links utilizando
+um pseudo elemento
+
+a.emoji::after(depois) {
+ content:'\000A0\1F517'
+}
+
